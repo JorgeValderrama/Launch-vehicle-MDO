@@ -37,3 +37,8 @@ the structures are also dimension as a function of:
 
 # Execution
 run the main_opt_traj.py file
+
+# Presentation
+Valderrama, J., Brevault, L., Balesdent, M. and Urbano, A. 2021. *All-At-Once MDO formulation for coupled
+optimization of launch vehicle design and its trajectory using a pseudo spectral method.* Paper accepted
+for presentation at the 14th World Congress of Structural and Multidisciplinary Optimization.
