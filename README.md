@@ -32,7 +32,7 @@ the structures are also dimension as a function of:
 ## Case study. Minimize gross-lift-of-weight for a vehicle with a mission of inserting 11 tons of payload into an orbit of 400 km.
 ![alt text](https://github.com/JorgeValderrama/Launch-vehicle-MDO/blob/master/results/0_state_history.png)
 
-#This sequence illustrates how 1 state of the trajectory and some design variables change during an otpimization procedure.
+# This sequence illustrates how 1 state of the trajectory and some design variables change during an otpimization procedure.
 ![alt text](https://github.com/JorgeValderrama/Launch-vehicle-MDO/blob/master/results/TSTO_opt.gif)
 
 # Execution
