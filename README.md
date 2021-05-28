@@ -34,3 +34,6 @@ the structures are also dimension as a function of:
 
 #This sequence illustrates how 1 state of the trajectory and some design variables change during an otpimization procedure.
 ![alt text](https://github.com/JorgeValderrama/Launch-vehicle-MDO/blob/master/results/TSTO_opt.gif)
+
+# Execution
+run the main_opt_traj.py file
