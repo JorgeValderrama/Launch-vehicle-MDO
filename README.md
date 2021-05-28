@@ -29,6 +29,8 @@ the structures are also dimension as a function of:
 * The whole MDAO of the launch vehicle is driven by a single Non-Linear Programming (NLP) solver: SLSQP
 * Because of the pseudospectral transcription the optimization problem involves 597 variables and 585 contraints.
 
-## Results
+## Case study. Minimize gross-lift-of-weight for a vehicle with a mission of inserting 11 tons of payload into an orbit of 400 km.
 ![alt text](https://github.com/JorgeValderrama/Launch-vehicle-MDO/blob/master/results/0_state_history.png)
-![alt text](https://github.com/JorgeValderrama/Launch-vehicle-MDO/blob/master/results/TSTO_opt.mp4)
+
+#This sequence illustrates how 1 state of the trajectory and some design variables change during an otpimization procedure.
+![alt text](https://github.com/JorgeValderrama/Launch-vehicle-MDO/blob/master/results/TSTO_opt.gif)
