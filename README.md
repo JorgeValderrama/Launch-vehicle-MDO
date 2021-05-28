@@ -1,4 +1,4 @@
-### Multidisciplinary Optimization (MDO) of Two-Stage to Orbit (TSTO) launch vehicle
+# Multidisciplinary Optimization (MDO) of Two-Stage to Orbit (TSTO) launch vehicle
 
 Traditionally, the MDAO of launch vehicles it's done using a Multidiscipline Feasible formulation, single shooting methods and evolutionary optimizers. This code uses a quasi-AAO MDO formulation to optimize a TSTO Launch vehicle and its trajectory using pseudospectral optimal control methods and gradient-based optimization.
 It includes 3 main disciplines: Propulsion, Mass-Sizing and trajectory.
@@ -32,13 +32,13 @@ the structures are also dimension as a function of:
 ## Case study. Minimize gross-lift-of-weight for a vehicle with a mission of inserting 11 tons of payload into an orbit of 400 km.
 ![alt text](https://github.com/JorgeValderrama/Launch-vehicle-MDO/blob/master/results/0_state_history.png)
 
-# This sequence illustrates how 1 state of the trajectory and some design variables change during an otpimization procedure.
+## This sequence illustrates how 1 state of the trajectory and some design variables change during an otpimization procedure.
 ![alt text](https://github.com/JorgeValderrama/Launch-vehicle-MDO/blob/master/results/TSTO_opt.gif)
 
-# Execution
+## Execution
 run the main_opt_traj.py file
 
-# Presentation
+## Presentation
 Valderrama, J., Brevault, L., Balesdent, M. and Urbano, A. 2021. *All-At-Once MDO formulation for coupled
 optimization of launch vehicle design and its trajectory using a pseudo spectral method.* Paper accepted
 for presentation at the 14th World Congress of Structural and Multidisciplinary Optimization.
