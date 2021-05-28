@@ -30,9 +30,12 @@ the structures are also dimension as a function of:
 * Because of the pseudospectral transcription the optimization problem involves 597 variables and 585 contraints.
 
 ## Case study. Minimize gross-lift-of-weight for a vehicle with a mission of inserting 11 tons of payload into an orbit of 400 km.
+Below is the evolution of the states corresponding to the optimal trajectory of the optimal vehicle.
 ![alt text](https://github.com/JorgeValderrama/Launch-vehicle-MDO/blob/master/results/0_state_history.png)
 
-## This sequence illustrates how 1 state of the trajectory and some design variables change during an otpimization procedure.
+## Optimization iterations
+This sequence illustrates how 1 state of the trajectory and some design variables describing the launcher change during an optimization procedure.
+As a gradient-bases optimizer is used, we can ensure that this solution corresponds to a local minimum. Multiple initializations allow to look for the global minimum.
 ![alt text](https://github.com/JorgeValderrama/Launch-vehicle-MDO/blob/master/results/TSTO_opt.gif)
 
 ## Execution
