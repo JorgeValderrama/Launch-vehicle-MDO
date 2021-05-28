@@ -19,7 +19,7 @@ the structures are also dimension as a function of:
 	* Pitch angle guidance parameters
 
 ## Requirements
-* dymos ( v.0.15.0 included in this repository as the version available on the original repo is not compatible anymore. This is related to the issue #406 in the Dymos Github page.)
+* dymos ( v.0.15.0 included in this repository as the version available on the original repo is not compatible anymore. This is related to the issue #406 in the Dymos Github page.) https://github.com/OpenMDAO/dymos
 * openmdao==3.1.0
 
 ## Main features
