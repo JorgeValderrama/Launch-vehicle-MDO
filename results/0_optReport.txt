@@ -1,0 +1,96 @@
+============================================================================== 
+============================ Optimization Report ============================= 
+============================================================================== 
+
+Design parameters: All values in standard SI units. Angles in radians. 
+Design parameters marked with (***) are close to their bounds or violate them 
+Name                                    lower          value          upper          
+------------------------------------------------------------------------------- 
+lift_off.t_duration                     1.0            6.1309         100.0          
+pitch_over_linear.t_duration (***)      5.0            5.0            10.0           
+pitch_over_exponential.t_duration       1.0            15.1896        100.0          
+gravity_turn.t_duration                 1.0            24.8183        150.0          
+gravity_turn_b.t_duration               1.0            52.8775        150.0          
+gravity_turn_c.t_duration               1.0            16.063         150.0          
+exoatmos_a_t_duration                   1.0            81.8452        250.0          
+exoatmos_b_t_duration                   1.0            174.204        250.0          
+delta_theta_pitch_over                  0.0175         0.1396         0.1745         
+xi                                      -1.0           -0.152         1.0            
+delta_theta_exoatmos                    -1.0472        0.0369         1.0472         
+theta_f                                 -0.3491        0.0147         0.3491         
+P_c_stage_2 (***)                       6000000.0      10000000.0     10000000.0     
+P_e_stage_2                             1.0            3540.8432      10000.0        
+o_f_stage_2                             2.0            2.3445         4.0            
+thrust_vac_stage_2                      100000.0       911354.4942    1400000.0      
+mp_2                                    50000.0        74853.7321     75000.0        
+P_c_stage_1 (***)                       6000000.0      10000000.0     10000000.0     
+P_e_stage_1                             40530.0        53760.8863     200000.0       
+o_f_stage_1                             2.0            2.3026         4.0            
+thrust_vac_stage_1                      5000000.0      7026653.2881   15000000.0     
+mp_1                                    230000.0       238461.2279    280000.0       
+max_n_f_1                               1.0            5.9063         10.0           
+max_q_dyn_1                             10.0           67359.7493     100000.0       
+D_stage_1                               1.0            3.8066         5.0            
+
+Constraints:  All values in standard SI units. Angles in radians. 
+Name                                    lower          value          upper          
+------------------------------------------------------------------------------- 
+Jettison.residual_ms_1                  0.0            0.0            1e+30          
+Jettison.residual_mplf                  0.0            0.0            1e+30          
+Jettison.residual_m_final               0.0            0.0            1e+30          
+ExitArea.residual_area_1                0.0            -0.0           1e+30          
+ExitArea.residual_area_2                0.0            -0.0           1e+30          
+DynamicPressure.residual_max_q_dyn      0.0            0.0            1e+30          
+Propellants.residual_mp_1               0.0            0.0            1e+30          
+Propellants.residual_mp_2               0.0            -0.0           1e+30          
+LoadFactor.residual_max_n_f_1           0.0            -0.0           1e+30          
+lift_off.final_value:r                  6378285.0      6378285.0      6380135.0      
+gravity_turn.final_value:qDot           -1e+30         0.0            1e+30          
+gravity_turn_c.final_value:q_dyn        -1e+21         1000.0         1000.0         
+exoatmos_a.final_value:q_heat           -1e+21         1135.0         1135.0         
+exoatmos_b.final_value:ra               6778135.0      6778135.0      6798135.0      
+exoatmos_b.final_value:rp               6523135.0      6523135.0      1e+21          
+
+Vehicle paramaters 
+------------------------------------------------------------------------------- 
+Payload mass (kg):                      11000.0
+Fairing mass (kg):                      1900.0
+Aux mass first stage (kg):              3000.0
+Propulsion type ():                     LOx + RP_1
+First stage:
+    Structural mass (kg):               26016.48
+    Propellants mass (kg):              238461.23
+    Structural coef ():                 0.1
+    Thrust (N):                         7026653.29
+    Isp (vac) (s):                      312.54
+    number of engines ():               9
+    Ae_t (m^2):                         7.28
+Second stage:
+    Structural mass (kg):               6921.44
+    Propellants mass (kg):              74853.73
+    Structural coef ():                 0.08
+    Thrust (N):                         911354.49
+    Isp (vac) (s):                      339.66
+    number of engines ():               1
+    Ae_t (m^2):                         7.28
+First stage flight with fairing:
+    Tw_ratio ():                        2.0
+Second stage flight with fairing:
+    Tw_ratio ():                        0.98
+
+Mission paramaters 
+------------------------------------------------------------------------------- 
+Height at apogee (km):                  400.0
+Min height at perigee(km):              145.0
+
+Objective:                              value
+GLOW (ton):                             359.153
+
+Initial guess:                          initial_guess/F9_11Ton_400km.db
+
+Performance:                            
+Message:                                Optimization terminated successfully
+Number of iterations:                   1
+Number of gradient evaluations:         1
+Number of function evaluations:         1
+Optimization time (s):                  4.21

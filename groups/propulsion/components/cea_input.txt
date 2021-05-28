@@ -1,0 +1,33 @@
+### CEA analysis performed on Sat 07-Nov-2020 08:33:45
+
+# Problem Type: "Rocket" (Infinite Area Combustor) 
+
+prob case=jlvz___________2418 ro equilibrium frozen    
+
+# Pressure (12 values):
+p,bar= 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170
+# Chamber/Exit Pressure Ratio (1 value):
+pi/p= 1
+
+# Oxidizer/Fuel Wt. ratio (13 values):
+o/f= 1.6, 1.8, 2, 2.2, 2.4, 2.6, 2.8, 3, 3.2, 3.4, 3.6, 3.8, 4
+
+# You selected the following fuels and oxidizers:
+reac
+fuel RP-1              wt%=100.0000 
+oxid O2(L)             wt%=100.0000 
+
+# You selected these options for output:
+# short version of output
+output short 
+# Proportions of any products will be expressed as Mass Fractions.
+output massf
+# Heat will be expressed as siunits
+output siunits
+# Plot parameters:
+output plot gamfz mwfz tfz p ispfz
+
+# Input prepared by this script:prepareInputFile.cgi
+
+### IMPORTANT:  The following line is the end of your CEA input file!
+end
