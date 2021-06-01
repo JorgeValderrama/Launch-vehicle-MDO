@@ -12,7 +12,7 @@ It includes 3 main disciplines: Propulsion, Mass-Sizing and trajectory.
 	* Stage diameter
 	* Mass of propellants
 	
-the structures are also dimension as a function of:
+	the structures are also dimension as a function of:
 	* Maximum dynamic pressure
 	* Maximum load factor
 * Trajectory: Hohmann ascent to an equatorial circular orbit using a parameterized pitch angle guidance. It models the amostphere according ot the U.S Standard Atmosphere from 1962 and 1972. Accounts for variations of drag coefficient as a function of Mach number.Optimization of
