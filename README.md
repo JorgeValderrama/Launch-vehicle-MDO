@@ -36,7 +36,7 @@ Below is the evolution of the states corresponding to the optimal trajectory of 
 
 ## Optimization iterations
 This sequence illustrates how 1 state of the trajectory and some design variables describing the launcher change during an optimization procedure.
-As a gradient-bases optimizer is used, we can ensure that this solution corresponds to a local minimum. Multiple initializations allow to look for the global minimum.
+Given that gradient-based optimization is used, we can ensure that this solution corresponds to a local minimum. Multiple initializations allow to look for the global minimum.
 ![alt text](https://github.com/JorgeValderrama/Launch-vehicle-MDO/blob/master/results/TSTO_opt.gif)
 
 ## Execution
