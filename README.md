@@ -11,6 +11,7 @@ It includes 3 main disciplines: Propulsion, Mass-Sizing and trajectory.
 * Mass-Sizing: Uses regressions on data of exhisitng launchers to calculate geometrical parameters and the weight of the launch vehicle. Optimization of:
 	* Stage diameter
 	* Mass of propellants
+	
 the structures are also dimension as a function of:
 	* Maximum dynamic pressure
 	* Maximum load factor
