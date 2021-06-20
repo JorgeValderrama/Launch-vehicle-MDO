@@ -47,3 +47,6 @@ Valderrama, J., Brevault, L., Balesdent, M. and Urbano, A. 2021. *All-At-Once MD
 optimization of launch vehicle design and its trajectory using a pseudo spectral method.* 14th World Congress of Structural and Multidisciplinary Optimization.
 ### Recording of presentation
 https://youtu.be/quLZS4tzxI0
+
+### Acknowledgements
+This work was developed during the research project of my master studies at ISAE-SUPAERO and was possible thanks to guidance and help of Dr. Mathieu Balesdent, Dr. Loïc Brevault and Dr. Annafederica Urbano.
