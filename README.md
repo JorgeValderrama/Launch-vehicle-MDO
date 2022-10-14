@@ -1,6 +1,6 @@
 # Multidisciplinary Optimization (MDO) of Two-Stage to Orbit (TSTO) launch vehicle
 
-Commonly, the MDAO of launch vehicles it's done using a Multidiscipline Feasible (MDF) formulation, single shooting methods and evolutionary optimizers. This innovative code uses a quasi-AAO MDO formulation to optimize a TSTO Launch vehicle and its trajectory using pseudospectral optimal control methods and gradient-based optimization, allowing to reduce the number of function evaluations.
+A common MDAO strategy for launch launch vehicles consists of a Multidiscipline Feasible (MDF) formulation, integrating single shooting methods and evolutionary optimizers. Tipically it requires a high number of iterations for the optimizer to converge. In this work we propose a quasi-AAO MDO formulation to optimize a TSTO Launch vehicle and its trajectory using pseudospectral optimal control methods and gradient-based optimization, allowing to reduce the number of function evaluations.
 It includes 3 main disciplines: Propulsion, Mass-Sizing and trajectory.
 
 * Propulsion: Uses a surrogate model (bilinear interpolator) of Rocket CEA outputs to determine performance. Optimization of
